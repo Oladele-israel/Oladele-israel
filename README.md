@@ -36,9 +36,9 @@ func main() {
         Name:       "Israel Oladele",
         Role:       "Backend Engineer",
         Location:   "Lagos, Nigeria 🇳🇬 · Open to relocation (EU · UK · US)",
-        Experience: "3 years building production backend systems",
-        Domains:    []string{"Fintech", "SaaS", "Logistics"},
-        Stack:      []string{"Node.js", "Go", "PostgreSQL", "Docker", "AWS"},
+        Experience: "3+ years building production backend systems",
+        Domains:    []string{"Fintech", "SaaS", "Logistics","any system"},
+        Stack:      []string{"Node.js","Express js", "Typescript","Nest js", "Go", "PostgreSQL", "Prisma", "Docker", "AWS"},
         Goal:       "Building scalable, reliable systems that solve real problems",
     }
     _ = me
@@ -88,7 +88,10 @@ func main() {
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
         <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"/>
       </p>
-      <a href="https://github.com/Oladele-israel/YOUR_REPO_NAME">View Project →</a>
+      <a href="https://github.com/Oladele-israel/visio_fe/">View Project →</a>
+      <a href="https://github.com/Oladele-israel/db_visio_BE/">View Backend Repo →</a>
+     <a href="https://github.com/Oladele-israel/db_visio_BE/">View Backend Repo →</a>
+     <a href="https://github.com/Oladele-israel/dbvisio_agent//">View Backend Repo →</a>
     </td>
     <td width="50%" valign="top">
       <h3>📅 LinkedIn Post Scheduler</h3>
@@ -98,7 +101,7 @@ func main() {
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white"/>
         <img src="https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=black"/>
       </p>
-      <a href="https://github.com/Oladele-israel/YOUR_REPO_NAME">View Project →</a>
+  <a href="https://github.com/Oladele-israel">Coming soon →</a>
     </td>
   </tr>
   <tr>
