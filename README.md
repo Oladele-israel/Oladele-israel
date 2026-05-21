@@ -90,7 +90,6 @@ func main() {
       </p>
       <a href="https://github.com/Oladele-israel/visio_fe/">View Project →</a>
       <a href="https://github.com/Oladele-israel/db_visio_BE/">View Backend Repo →</a>
-     <a href="https://github.com/Oladele-israel/db_visio_BE/">View Backend Repo →</a>
      <a href="https://github.com/Oladele-israel/dbvisio_agent//">View Backend Repo →</a>
     </td>
     <td width="50%" valign="top">
