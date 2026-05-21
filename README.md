@@ -96,7 +96,7 @@ func main() {
       <h3>📅 LinkedIn Post Scheduler</h3>
       <p>Automated post scheduling engine for LinkedIn. Built with a job queue, retry logic, and OAuth integration. Handles rate limits and failure recovery gracefully.</p>
       <p>
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/>
+          <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white"/>
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white"/>
         <img src="https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=black"/>
       </p>
@@ -111,7 +111,7 @@ func main() {
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/>
         <img src="https://img.shields.io/badge/Canvas_API-E34F26?style=flat&logo=html5&logoColor=white"/>
       </p>
-      <a href="https://github.com/Oladele-israel/YOUR_REPO_NAME">View Project →</a>
+      <a href="https://github.com/Oladele-israel/stegnography/">View Project →</a>
     </td>
     <td width="50%" valign="top">
       <h3>⚙️ Go Microservice (In Progress)</h3>
