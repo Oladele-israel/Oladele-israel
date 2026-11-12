@@ -1,189 +1,71 @@
-<div align="center">
+# Oladele Israel Omole
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e40af&height=200&section=header&text=Israel%20Oladele&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Backend%20Engineer%20·%20Node.js%20·%20Go&descAlignY=58&descSize=18&descColor=93c5fd" width="100%"/>
+**Backend engineer · Go, TypeScript/Node.js · PostgreSQL, Redis · Fintech, health and aviation**
 
-</div>
+4+ years shipping production backends. I've led engineering on a telehealth platform that grew from 300 to 1,200+ users in three months, built payment integrations that processed $2.9M+ (₦4B+) with zero double-charges, and written Go APIs holding sub-5ms P99 latency.
 
-<div align="center">
+📍 Lagos, Nigeria · Remote-first · Open to relocation (UK · EU · US) · [Visa sponsorship: needed / not needed]
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/oladele-omole113/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omoleoladele43@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://oladele-israel.vercel.app/)
-
-![Profile Views](https://komarev.com/ghpvc/?username=Oladele-israel&color=1e40af&style=for-the-badge&label=PROFILE+VIEWS)
-
-</div>
+[LinkedIn](https://linkedin.com/in/oladele-omole113/) · [Email](mailto:omoleoladele43@gmail.com) · [Portfolio](https://oladele-israel.vercel.app/) · [Engineering notes](https://github.com/Oladele-israel/engineering-notes)
 
 ---
 
-## 👋 About Me
+## Production systems (private repos, documented publicly)
 
-```go
-package main
+The code is private under client and employer agreements, so I document each system as a case study: the problem, the architecture, the tradeoffs and the measured result. Code walkthroughs are available on a call, or via read access under NDA where the owner allows it.
 
-type Engineer struct {
-    Name        string
-    Role        string
-    Location    string
-    Experience  string
-    Domains     []string
-    Stack       []string
-    Goal        string
-}
-
-func main() {
-    me := Engineer{
-        Name:       "Israel Oladele",
-        Role:       "Backend Engineer",
-        Location:   "Lagos, Nigeria 🇳🇬 · Open to relocation (EU · UK · US)",
-        Experience: "3+ years building production backend systems",
-        Domains:    []string{"Fintech", "SaaS", "Logistics","any system"},
-        Stack:      []string{"Node.js","Express js", "Typescript","Nest js", "Go", "PostgreSQL", "Prisma", "Docker", "AWS"},
-        Goal:       "Building scalable, reliable systems that solve real problems",
-    }
-    _ = me
-}
-```
+| System | Result | Key engineering | Case study |
+|---|---|---|---|
+| **Unicco Health**: telehealth platform (appointments, prescriptions, pharmacy fulfillment, dispatch, admin). Engineering lead, MVP shipped in 4 weeks. | 300 → 1,200+ users in 3 months · 1,000+ prescription fulfillments/month · 100+ consultations/week | NestJS, Next.js, PostgreSQL, Prisma, Redis + BullMQ jobs, real-time scheduling, video integration, encryption for health data | [Read →](https://github.com/Oladele-israel/engineering-notes/blob/main/01-unicco-health.md) |
+| **Core banking platform** for a Nigerian microfinance bank serving hundreds of thousands of customers | Regulatory compliance delivered (CBN-aligned) · production bug rate reduced | End-to-end encryption, idempotent retries, audit-trail logging, structured error handling | [Read →](https://github.com/Oladele-israel/engineering-notes/blob/main/02-core-banking.md) |
+| **Multi-gateway payments**: Stripe, PayPal and Paystack integrations | $2.9M+ (₦4B+) processed with zero double-charges | Idempotency keys, retry safety, transactional outbox | [Read →](https://github.com/Oladele-israel/engineering-notes/blob/main/03-payments-idempotency.md) |
+| **High-throughput Go APIs** | Sub-5ms P99 latency | Queue-based processing (Asynq/Redis), circuit breakers, transactional outbox | [Read →](https://github.com/Oladele-israel/engineering-notes/blob/main/04-go-low-latency-api.md) |
 
 ---
 
-## 🔧 Tech Stack
+## Public projects
 
-<div align="center">
+### [DB Schema Visualizer](https://github.com/Oladele-israel/visio_fe)
+Browser-based schema explorer that maps tables, foreign keys and relationships from a live PostgreSQL database, with no SQL required.
+**Node.js · PostgreSQL · React** · [Frontend](https://github.com/Oladele-israel/visio_fe) · [Backend](https://github.com/Oladele-israel/db_visio_BE) · [AI agent](https://github.com/Oladele-israel/dbvisio_agent) · [Live demo](#)
 
-### Languages & Runtimes
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-
-### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-### Infrastructure & DevOps
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=black)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-### APIs & Tooling
-![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
+### [Image Steganography Tool](https://github.com/Oladele-israel/stegnography)
+Hides passphrase-encrypted text inside image pixels using LSB steganography.
+**Node.js · Canvas API**
 
 ---
 
-## 🚀 Featured Projects
+## Experience
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🗄️ DB Schema Visualizer</h3>
-      <p>Browser-based database schema explorer built for developers. Visualize table relationships, foreign keys, and schema structure without writing a single SQL query.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"/>
-      </p>
-      <a href="https://github.com/Oladele-israel/visio_fe/">View Project →</a>
-      <a href="https://github.com/Oladele-israel/db_visio_BE/">View Backend Repo →</a>
-     <a href="https://github.com/Oladele-israel/dbvisio_agent//">View Backend Repo →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📅 LinkedIn Post Scheduler</h3>
-      <p>Automated post scheduling engine for LinkedIn. Built with a job queue, retry logic, and OAuth integration. Handles rate limits and failure recovery gracefully.</p>
-      <p>
-          <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white"/>
-        <img src="https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=black"/>
-      </p>
-  <a href="https://github.com/Oladele-israel">Coming soon →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔐 Image Steganography Tool</h3>
-      <p>Hides encrypted text data inside image pixels using LSB steganography. Supports encoding and decoding with a passphrase — invisible to the human eye.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Canvas_API-E34F26?style=flat&logo=html5&logoColor=white"/>
-      </p>
-      <a href="https://github.com/Oladele-israel/stegnography/">View Project →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚙️ Go Microservice (In Progress)</h3>
-      <p>Production-style REST microservice written in Go. Exploring Go's concurrency patterns, structured logging, and clean architecture for high-throughput APIs.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
-      </p>
-      <a href="https://github.com/Oladele-israel">Coming soon →</a>
-    </td>
-  </tr>
-</table>
+| Role | Company | When |
+|---|---|---|
+| Backend Engineer, Engineering Lead | Unicco Health (telehealth) | Jul 2026 – Present |
+| Backend Software Engineer | Virtual Switch International (core banking and airline flight management) | 2025 – Present |
+| STEM Software Engineering Instructor | XPR Nigeria Limited | Mar 2026 – Present |
+| Backend Engineer | Davenport Microfinance Bank (via Virtual Switch) | 2024 – 2025 |
+| Lead Software Engineer | Kabod Labs (reusable auth, RBAC and API foundations across client projects) | 2022 – 2023 |
+| Software Engineer Intern | NeraHubs | 2021 – 2022 |
+
+Also: Lead Engineer at the UNESCO Youth Hackathon · active member of Google Developer Community Port Harcourt.
 
 ---
 
-## 📊 GitHub Stats
+## How I work
 
-<div align="center">
+- **Reliability:** idempotency, retries with backoff, circuit breakers and health checks by default.
+- **Observability:** structured error logging and dashboards, so incidents take minutes to diagnose.
+- **Security:** dual-token auth, RBAC, AES-256 encryption and audit trails for sensitive data.
+- **Leadership:** I set technical direction, run code reviews and mentor engineers.
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Oladele-israel&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Oladele-israel&layout=compact&theme=tokyonight&hide_border=true"/>
+## Stack
 
-</div>
-
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Oladele-israel&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D)
-
-</div>
-
----
-
-## 🧠 What I'm Currently Doing
-
-- 🔨 &nbsp; Deepening my Go skills — building real microservices, not tutorials
-- 📐 &nbsp; Studying system design: distributed systems, database internals, CAP theorem
-- 🌍 &nbsp; Actively seeking backend / platform engineering roles in **EU · UK · US**
-- 📝 &nbsp; Writing technical content about backend architecture and API design
+**Languages:** Go, TypeScript, JavaScript (Node.js)
+**Frameworks:** NestJS, Express, Next.js, React
+**Data and queues:** PostgreSQL, Prisma, TypeORM, MongoDB, Redis, BullMQ, Asynq
+**Infra:** AWS, Docker, Render, Vercel, Linux, Git
+**Patterns:** transactional outbox, idempotency, circuit breakers, RBAC, microservices
 
 ---
 
-## 🏗️ How I Work
-
-```
-Problem → Design → Build → Ship → Observe → Iterate
-```
-
-I care about:
-- **Reliability** — services that stay up and recover gracefully
-- **Observability** — systems you can debug at 2am
-- **Clean APIs** — interfaces that make sense without a manual
-- **Performance** — writing code that respects the machine
-
----
-
-## 📬 Let's Connect
-
-I'm actively looking for backend and platform engineering roles where I can grow into a senior or staff level position. If you're hiring or know someone who is — let's talk.
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/oladele-omole113/)
-[![Email Me](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omoleoladele43@gmail.com)
-
-**📍 Lagos, Nigeria · Open to relocation · EU · UK · US · Remote**
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e40af,100:0f172a&height=120&section=footer" width="100%"/>
-
-</div>
+**Looking for:** a backend or platform engineering role (senior track) on a team that values reliability.
+**Best way to reach me:** [omoleoladele43@gmail.com](mailto:omoleoladele43@gmail.com)
