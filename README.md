@@ -6,7 +6,7 @@
 
 📍 Lagos, Nigeria · Remote-first · Open to relocation (UK · EU · US) · [Visa sponsorship: needed / not needed]
 
-[LinkedIn](https://linkedin.com/in/oladele-omole113/) · [Email](mailto:omoleoladele43@gmail.com) · [Portfolio](https://oladele-israel.vercel.app/) · [Engineering notes](https://github.com/Oladele-israel/engineering-notes)
+[LinkedIn](https://www.linkedin.com/in/oladele200/) · [Email](mailto:omoleoladele43@gmail.com) · [Portfolio](https://oladele-israel.vercel.app/) · [Engineering notes](https://github.com/Oladele-israel/engineering-notes)
 
 ---
 
